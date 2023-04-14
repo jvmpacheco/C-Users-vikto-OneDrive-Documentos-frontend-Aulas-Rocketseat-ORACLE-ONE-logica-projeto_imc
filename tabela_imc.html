@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="./imc.js" defer=""></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Calcule seu IMC</title>
+</head>
+
+<body>
+  <header>
+    <h1 id="titulo">IMC adultos - com distinção de sexo</h1>
+
+    <h2 id="conceito">Método desenvolvido a partir de estudos realizados nos Estados Unidos (NHANES II survey - National
+      Health and Nutrition Examination Survey)</h2>
+  </header>
+
+  <div id="tabela">
+    <h3 align="justify">Masculino </h3>
+
+    <table width="300" border="1" cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td>IMC</td>
+          <td>Categoria</td>
+        </tr>
+        <tr>
+          <td>Abaixo de 20,7</td>
+          <td>Abaixo do peso</td>
+        </tr>
+        <tr>
+          <td>20,7 a 26,4</td>
+          <td>Peso ideal</td>
+        </tr>
+        <tr>
+          <td>26,5 a 27,8</td>
+          <td>Pouco acima do peso</td>
+        </tr>
+        <tr>
+          <td>27,9 a 31,1</td>
+          <td>Acima do peso</td>
+        </tr>
+        <tr>
+          <td>31,2 e acima</td>
+          <td>Obesidade</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3 align="justify">Feminino </h3>
+    <table width="300" border="1" cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td>IMC</td>
+          <td>Categoria</td>
+        </tr>
+        <tr>
+          <td>Abaixo de 19,1</td>
+          <td>Abaixo do peso</td>
+        </tr>
+        <tr>
+          <td>19,1 a 25,8</td>
+          <td>Peso ideal</td>
+        </tr>
+        <tr>
+          <td>25,9 a 27,3</td>
+          <td>Pouco acima do peso</td>
+        </tr>
+        <tr>
+          <td>27,4 a 32,3</td>
+          <td>Acima do peso</td>
+        </tr>
+        <tr>
+          <td>32,4 e acima</td>
+          <td>Obesidade</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <span>
+    <div id="form">
+
+      Sexo<br />
+      <select name="Sexo" id="sexo">
+        <option value=""></option>
+        <option value="masculino">Masculino</option>
+        <option value="feminino">Feminino</option>
+      </select>
+      <br />
+      Nome<br /><input id="nome" type="text" /> <br />
+      Peso<br /><input id="peso" type="number" /> <br />
+      Altura (cm) <br /><input id="altura" type="number" /> <br /><br />
+      <button onclick="calculaImc()" id="button">Calcular IMC</button>
+
+    </div>
+  </span>
+
+  <span>
+    <div class="resultado">
+      <h2>
+
+      </h2>
+
+    </div>
+  </span>
+</body>
+
+</html>

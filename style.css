@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+header {
+  margin-top: 5px;
+  margin: 5px;
+ /* border: 1px solid rgb(243, 93, 118);*/
+  /*padding: 60px;*/
+}
+#titulo {
+  text-align: center;
+  margin-top: auto;
+  margin: 5px;
+  /*border: 1px solid rgb(243, 93, 118);*/
+  /*padding: 60px;*/
+}
+
+#conceito {
+  margin: 60px;
+  margin-top: 10px;
+  /*border: 1px solid green;*/
+  padding: 5px;
+}
+#tabela {
+  position: absolute;
+  vertical-align: top;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 30px;
+  /*margin-top: auto;*/
+  margin-right: 1100px;
+  border: 1px solid black;
+  padding: 25px;
+}
+
+#form {
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 500px;
+  margin-top: auto;
+  margin-right: 700px;
+  border: 1px solid black;
+  padding: 25px;
+}
+
+.resultado {
+  display: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 500px;
+  margin-top: auto;
+  margin-right: 30px;
+}
