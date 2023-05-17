@@ -1,5 +1,5 @@
 function redirect() {
-  window.location = "tabela_imc.html"
+  window.location = "index.html"
 }
 
 function calculaImc(peso, altura) {
